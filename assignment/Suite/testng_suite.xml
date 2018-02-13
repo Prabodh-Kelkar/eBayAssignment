@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="eBay">
+        <classes>
+            <class name="tests.TestCases">
+            <methods>
+                <include name="TestCase01"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
